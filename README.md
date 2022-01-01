@@ -1,8 +1,8 @@
 # MIDI_Score_Analysis
 
-During the 1930s George K. Zipf discovered, that there is a statistical correlation between the frequecy a word used within a document and the their rank within a list counting their occurrence [[1]](https://www.britannica.com/topic/Zipfs-law). Something that applies for many languages [[2]](https://arxiv.org/abs/1807.01855).
+During the 1930s George K. Zipf discovered, that there is a statistical correlation between the frequency a word is used within a document and the its rank within a list counting its occurrence [[1]](https://www.britannica.com/topic/Zipfs-law). Something that applies for manifold languages [[2]](https://arxiv.org/abs/1807.01855).
 
-Put simply, the probability (*p*) of a term occuring in a text is inversly proportional to their rank (*n*) within a frequency list.
+Put simply, the probability (*p*) of a term occuring in a text is inversely proportional to its rank (*n*) within a frequency list.
 
 <img src="https://latex.codecogs.com/svg.image?p(n)&space;\sim&space;\frac{1}{n}" title="p(n) \sim \frac{1}{n}" />
 
@@ -15,7 +15,7 @@ This notebook can be used to
 - display the notes frequency of occurence (the harmonic complexity will be reduced to the range of a single octave)
 - transpose a piece given its initial and target key
 
-of a single MIDI file, to fully answer the question though, a greater analysis over a variety of pieces would be necessary. Although sometimes provided, information about the key the piece was written in is critical for an extensive analysis, due to it would allow for transposing multiple scores, so they could reliably be compared. 
+of a single MIDI file, to fully answer the question though, a greater analysis over a variety of pieces would be necessary. Although sometimes provided, information about the key the piece was written in is critical for an extensive analysis, due to it would allow for transposing multiple scores, so they could reliably be compared.
 
 ![output](example.png)
 
