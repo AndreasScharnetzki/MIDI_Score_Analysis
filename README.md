@@ -1,4 +1,4 @@
-# MIDI_Score_Analysis
+# MIDI Score Analysis
 
 During the 1930s George K. Zipf discovered, that there is a statistical correlation between the frequency a word is used within a document and the its rank within a list counting its occurrence [[1]](https://www.britannica.com/topic/Zipfs-law). Something that applies for manifold languages [[2]](https://arxiv.org/abs/1807.01855).
 
